@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Calc_PMI.DDF_MortgageCalc">
+        <methods>
+          <include name="inti"/>
+          <include name="writeXL"/>
+          <include name="calc"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Calc_PMI.DDF_MortgageCalc -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

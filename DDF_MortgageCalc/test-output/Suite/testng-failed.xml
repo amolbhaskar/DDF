@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Calc_PMI.DDF_MortgageCalc">
+        <methods>
+          <include name="writeXL"/>
+          <include name="inti"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Calc_PMI.DDF_MortgageCalc -->
+      <class name="ReadWriteExcel.ReadWriteExccel">
+        <methods>
+          <include name="writeXL"/>
+        </methods>
+      </class> <!-- ReadWriteExcel.ReadWriteExccel -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,748 @@
+<html xmlns:math="http://exslt.org/math" xmlns:testng="http://testng.org">
+   <head>
+      <title>TestNG Results</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+      <meta http-equiv="pragma" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="max-age=0"></meta>
+      <meta http-equiv="cache-control" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="no-store"></meta>
+      <LINK rel="stylesheet" href="style.css"></LINK>
+      <script type="text/javascript" src="main.js"></script>
+   </head>
+   <body>
+      <table width="100%" style="font-size: 16px; margin-bottom: 10px;" cellspacing="1">
+         <tr>
+            <td width="100%">
+               All methods in suite
+               
+               <b>Default suite</b>
+            </td>
+            <td style="background-color: #FFBBBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">2</div>
+            </td>
+            <td style="background-color: lightgreen; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">0</div>
+            </td>
+            <td style="background-color: #FFFFBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">0</div>
+            </td>
+            <td align="center" style="background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">2</div>
+            </td>
+            <td align="center"
+                style="font-weight: bold; background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">0%</div>
+            </td>
+            <td style="background-color: #eaf0f7; padding: 3px 3px 3px 0;" align="center"
+                nowrap="true">30s
+               
+            </td>
+         </tr>
+      </table>
+      <div style="width: 200px;">
+         <label for="groupMethodsCheckBox" style="font-weight: bold; margin: 0;">
+            <input id="groupMethodsCheckBox" type="checkbox" onclick="switchTestMethodsView(this)"></input>
+            Group by class
+            
+         </label>
+         <br></br>
+         <label for="methodsFilter_ALL" style="font-weight: bold; margin: 0;">
+            <input id="methodsFilter_ALL" type="checkbox"
+                   onclick="testMethodsFilterChanged(this, 'ALL')"></input>
+            All
+            
+         </label>
+      </div>
+      <label for="methodsFilter_FAIL" style="margin-left: 20px;">
+         <input id="methodsFilter_FAIL" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'FAIL')"
+                checked=""></input>
+         Failed
+         
+      </label>
+      <label for="methodsFilter_PASS">
+         <input id="methodsFilter_PASS" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'PASS')"
+                checked=""></input>
+         Passed
+         
+      </label>
+      <label for="methodsFilter_SKIP">
+         <input id="methodsFilter_SKIP" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'SKIP')"
+                checked=""></input>
+         Skipped
+         
+      </label>
+      <label for="methodsFilter_CONF">
+         <input id="methodsFilter_CONF" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'CONF')"></input>
+         Config
+         
+      </label>
+      <br></br>
+      <div id="testMethodsByStatus">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="Calc_PMI.DDF_MortgageCalc_calc_byStatus_failed_FAIL1_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('Calc_PMI.DDF_MortgageCalc_calc_byStatus_failed_FAIL1_details')">calc()</a>
+               </td>
+               <td nowrap="true">13:19:56</td>
+               <td nowrap="true" align="right">30s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('Calc_PMI.DDF_MortgageCalc_calc_byStatus_failed_FAIL1_exception')">org.openqa.selenium.NoSuchElementException: 
+                     Unable to locate element: {"method":"xpath","selector":"//*[@id='calc']/form/section/section[2]/div/div/div[1]/div/div/div[3]/div[2]/div[2]/div[1]/div[1]/h3"}
+                     Command duration or timeout: 10.11 seconds
+                     For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                     Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+                     System info: host: 'Amol', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                     '1.8.0_101'
+                     Driver info: org.openqa.selenium.firefox.FirefoxDriver
+                     Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS,
+                     nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true,
+                     javascriptEnabled=true, cssSelectorsEnabled=true}]
+                     Session ID: 15854589-bf60-4007-85ab-ab238340be53
+                     *** Element info: {Using=xpath, value=//*[@id='calc']/form/section/section[2]/div/div/div[1]/div/div/div[3]/div[2]/div[2]/div[1]/div[1]/h3}
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Calc_PMI.DDF_MortgageCalc_calc_byStatus_failed_FAIL1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>calc
+                     </div>
+                     <div>
+                        <b>Signature: </b>calc()[pri:0, instance:Calc_PMI.DDF_MortgageCalc@2c039ac6]
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:19:56
+                     </div>
+                     <div>
+                        <b>End time: </b>13:20:26
+                     </div>
+                     <div>
+                        <b>Duration: </b>30s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Calc_PMI.DDF_MortgageCalc_calc_byStatus_failed_FAIL1_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='calc']/form/section/section[2]/div/div/div[1]/div/div/div[3]/div[2]/div[2]/div[1]/div[1]/h3"}
+                        Command duration or timeout: 10.11 seconds
+                        For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                        Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+                        System info: host: 'Amol', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                        '1.8.0_101'
+                        Driver info: org.openqa.selenium.firefox.FirefoxDriver
+                        Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS,
+                        nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true,
+                        javascriptEnabled=true, cssSelectorsEnabled=true}]
+                        Session ID: 15854589-bf60-4007-85ab-ab238340be53
+                        *** Element info: {Using=xpath, value=//*[@id='calc']/form/section/section[2]/div/div/div[1]/div/div/div[3]/div[2]/div[2]/div[1]/div[1]/h3}
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+                        	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+                        	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+                        	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+                        	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+                        	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+                        	at Calc_PMI.DDF_MortgageCalc.calc(DDF_MortgageCalc.java:93)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        	at java.lang.reflect.Method.invoke(Unknown Source)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+                        	at org.testng.TestRunner.run(TestRunner.java:610)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+                        	at org.testng.TestNG.runSuites(TestNG.java:1133)
+                        	at org.testng.TestNG.run(TestNG.java:1104)
+                        	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+                        	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+                        	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+                        Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='calc']/form/section/section[2]/div/div/div[1]/div/div/div[3]/div[2]/div[2]/div[1]/div[1]/h3"}
+                        For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                        Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+                        System info: host: 'Amol', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                        '1.8.0_101'
+                        Driver info: driver.version: unknown
+                        	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/abhaskar/AppData/Local/Temp/anonymous233580920817424106webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+                        	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/abhaskar/AppData/Local/Temp/anonymous233580920817424106webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="Calc_PMI.DDF_MortgageCalc_writeXL_byStatus_failed_FAIL2_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('Calc_PMI.DDF_MortgageCalc_writeXL_byStatus_failed_FAIL2_details')">writeXL()</a>
+               </td>
+               <td nowrap="true">13:20:26</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('Calc_PMI.DDF_MortgageCalc_writeXL_byStatus_failed_FAIL2_exception')">org.testng.TestNGException: 
+                     
+                     Cannot inject @Test annotated Method [writeXL] with [class java.lang.String, class java.lang.String, class [[Ljava.lang.String;].
+                     For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Calc_PMI.DDF_MortgageCalc_writeXL_byStatus_failed_FAIL2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>writeXL
+                     </div>
+                     <div>
+                        <b>Signature: </b>writeXL(java.lang.String, java.lang.String, [[Ljava.lang.String;)[pri:0, instance:Calc_PMI.DDF_MortgageCalc@2c039ac6]
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:20:26
+                     </div>
+                     <div>
+                        <b>End time: </b>13:20:26
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Calc_PMI.DDF_MortgageCalc_writeXL_byStatus_failed_FAIL2_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.testng.TestNGException: 
+                        Cannot inject @Test annotated Method [writeXL] with [class java.lang.String, class java.lang.String, class [[Ljava.lang.String;].
+                        For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+                        	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:244)
+                        	at org.testng.internal.Parameters.createParameters(Parameters.java:172)
+                        	at org.testng.internal.Parameters.createParameters(Parameters.java:458)
+                        	at org.testng.internal.Parameters.handleParameters(Parameters.java:568)
+                        	at org.testng.internal.Invoker.handleParameters(Invoker.java:1293)
+                        	at org.testng.internal.Invoker.createParameters(Invoker.java:1020)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1110)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+                        	at org.testng.TestRunner.run(TestRunner.java:610)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+                        	at org.testng.TestNG.runSuites(TestNG.java:1133)
+                        	at org.testng.TestNG.run(TestNG.java:1104)
+                        	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+                        	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+                        	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="Calc_PMI.DDF_MortgageCalc_tearDown_byStatus_failed_FAIL3_row"
+                class="testMethodStatusFAIL testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('Calc_PMI.DDF_MortgageCalc_tearDown_byStatus_failed_FAIL3_details')">tearDown()</a>
+               </td>
+               <td nowrap="true">13:20:26</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('Calc_PMI.DDF_MortgageCalc_tearDown_byStatus_failed_FAIL3_exception')">java.io.FileNotFoundException: 
+                     C:\Java_Luna_Projects\DDF_MortgageCalc\calcwrite.xls (The process cannot access the file because it is being used by another
+                     process)
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Calc_PMI.DDF_MortgageCalc_tearDown_byStatus_failed_FAIL3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>tearDown
+                     </div>
+                     <div>
+                        <b>Signature: </b>tearDown()[pri:0, instance:Calc_PMI.DDF_MortgageCalc@2c039ac6]
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:20:26
+                     </div>
+                     <div>
+                        <b>End time: </b>13:20:26
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Calc_PMI.DDF_MortgageCalc_tearDown_byStatus_failed_FAIL3_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">java.io.FileNotFoundException: C:\Java_Luna_Projects\DDF_MortgageCalc\calcwrite.xls (The process cannot access the file because
+                        it is being used by another process)
+                        	at java.io.FileOutputStream.open0(Native Method)
+                        	at java.io.FileOutputStream.open(Unknown Source)
+                        	at java.io.FileOutputStream.&lt;init&gt;(Unknown Source)
+                        	at java.io.FileOutputStream.&lt;init&gt;(Unknown Source)
+                        	at ReadWriteExcel.ReadWriteExcel.writeXL(ReadWriteExcel.java:36)
+                        	at Calc_PMI.DDF_MortgageCalc.tearDown(DDF_MortgageCalc.java:114)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        	at java.lang.reflect.Method.invoke(Unknown Source)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+                        	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+                        	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+                        	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+                        	at org.testng.TestRunner.afterRun(TestRunner.java:983)
+                        	at org.testng.TestRunner.run(TestRunner.java:614)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+                        	at org.testng.TestNG.runSuites(TestNG.java:1133)
+                        	at org.testng.TestNG.run(TestNG.java:1104)
+                        	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+                        	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+                        	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="Calc_PMI.DDF_MortgageCalc_inti_byStatus_passed_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('Calc_PMI.DDF_MortgageCalc_inti_byStatus_passed_PASS1_details')">inti()</a>
+               </td>
+               <td nowrap="true">13:19:56</td>
+               <td nowrap="true" align="right">227 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Calc_PMI.DDF_MortgageCalc_inti_byStatus_passed_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>inti
+                     </div>
+                     <div>
+                        <b>Signature: </b>inti()[pri:0, instance:Calc_PMI.DDF_MortgageCalc@2c039ac6]
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:19:56
+                     </div>
+                     <div>
+                        <b>End time: </b>13:19:56
+                     </div>
+                     <div>
+                        <b>Duration: </b>227 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+      </div>
+      <div id="testMethodsByClass" style="display: none;">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">Calc_PMI.DDF_MortgageCalc</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="Calc_PMI.DDF_MortgageCalc_inti_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('Calc_PMI.DDF_MortgageCalc_inti_byClass_PASS1_details')">inti()</a>
+               </td>
+               <td nowrap="true">13:19:56</td>
+               <td nowrap="true" align="right">227 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Calc_PMI.DDF_MortgageCalc_inti_byClass_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>inti
+                     </div>
+                     <div>
+                        <b>Signature: </b>inti()[pri:0, instance:Calc_PMI.DDF_MortgageCalc@2c039ac6]
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:19:56
+                     </div>
+                     <div>
+                        <b>End time: </b>13:19:56
+                     </div>
+                     <div>
+                        <b>Duration: </b>227 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="Calc_PMI.DDF_MortgageCalc_calc_byClass_FAIL2_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('Calc_PMI.DDF_MortgageCalc_calc_byClass_FAIL2_details')">calc()</a>
+               </td>
+               <td nowrap="true">13:19:56</td>
+               <td nowrap="true" align="right">30s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('Calc_PMI.DDF_MortgageCalc_calc_byClass_FAIL2_exception')">org.openqa.selenium.NoSuchElementException: 
+                     Unable to locate element: {"method":"xpath","selector":"//*[@id='calc']/form/section/section[2]/div/div/div[1]/div/div/div[3]/div[2]/div[2]/div[1]/div[1]/h3"}
+                     Command duration or timeout: 10.11 seconds
+                     For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                     Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+                     System info: host: 'Amol', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                     '1.8.0_101'
+                     Driver info: org.openqa.selenium.firefox.FirefoxDriver
+                     Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS,
+                     nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true,
+                     javascriptEnabled=true, cssSelectorsEnabled=true}]
+                     Session ID: 15854589-bf60-4007-85ab-ab238340be53
+                     *** Element info: {Using=xpath, value=//*[@id='calc']/form/section/section[2]/div/div/div[1]/div/div/div[3]/div[2]/div[2]/div[1]/div[1]/h3}
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Calc_PMI.DDF_MortgageCalc_calc_byClass_FAIL2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>calc
+                     </div>
+                     <div>
+                        <b>Signature: </b>calc()[pri:0, instance:Calc_PMI.DDF_MortgageCalc@2c039ac6]
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:19:56
+                     </div>
+                     <div>
+                        <b>End time: </b>13:20:26
+                     </div>
+                     <div>
+                        <b>Duration: </b>30s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Calc_PMI.DDF_MortgageCalc_calc_byClass_FAIL2_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='calc']/form/section/section[2]/div/div/div[1]/div/div/div[3]/div[2]/div[2]/div[1]/div[1]/h3"}
+                        Command duration or timeout: 10.11 seconds
+                        For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                        Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+                        System info: host: 'Amol', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                        '1.8.0_101'
+                        Driver info: org.openqa.selenium.firefox.FirefoxDriver
+                        Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS,
+                        nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true,
+                        javascriptEnabled=true, cssSelectorsEnabled=true}]
+                        Session ID: 15854589-bf60-4007-85ab-ab238340be53
+                        *** Element info: {Using=xpath, value=//*[@id='calc']/form/section/section[2]/div/div/div[1]/div/div/div[3]/div[2]/div[2]/div[1]/div[1]/h3}
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+                        	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+                        	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+                        	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+                        	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+                        	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+                        	at Calc_PMI.DDF_MortgageCalc.calc(DDF_MortgageCalc.java:93)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        	at java.lang.reflect.Method.invoke(Unknown Source)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+                        	at org.testng.TestRunner.run(TestRunner.java:610)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+                        	at org.testng.TestNG.runSuites(TestNG.java:1133)
+                        	at org.testng.TestNG.run(TestNG.java:1104)
+                        	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+                        	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+                        	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+                        Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='calc']/form/section/section[2]/div/div/div[1]/div/div/div[3]/div[2]/div[2]/div[1]/div[1]/h3"}
+                        For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                        Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+                        System info: host: 'Amol', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                        '1.8.0_101'
+                        Driver info: driver.version: unknown
+                        	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/abhaskar/AppData/Local/Temp/anonymous233580920817424106webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+                        	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/abhaskar/AppData/Local/Temp/anonymous233580920817424106webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="Calc_PMI.DDF_MortgageCalc_writeXL_byClass_FAIL3_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('Calc_PMI.DDF_MortgageCalc_writeXL_byClass_FAIL3_details')">writeXL()</a>
+               </td>
+               <td nowrap="true">13:20:26</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('Calc_PMI.DDF_MortgageCalc_writeXL_byClass_FAIL3_exception')">org.testng.TestNGException: 
+                     
+                     Cannot inject @Test annotated Method [writeXL] with [class java.lang.String, class java.lang.String, class [[Ljava.lang.String;].
+                     For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Calc_PMI.DDF_MortgageCalc_writeXL_byClass_FAIL3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>writeXL
+                     </div>
+                     <div>
+                        <b>Signature: </b>writeXL(java.lang.String, java.lang.String, [[Ljava.lang.String;)[pri:0, instance:Calc_PMI.DDF_MortgageCalc@2c039ac6]
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:20:26
+                     </div>
+                     <div>
+                        <b>End time: </b>13:20:26
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Calc_PMI.DDF_MortgageCalc_writeXL_byClass_FAIL3_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.testng.TestNGException: 
+                        Cannot inject @Test annotated Method [writeXL] with [class java.lang.String, class java.lang.String, class [[Ljava.lang.String;].
+                        For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+                        	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:244)
+                        	at org.testng.internal.Parameters.createParameters(Parameters.java:172)
+                        	at org.testng.internal.Parameters.createParameters(Parameters.java:458)
+                        	at org.testng.internal.Parameters.handleParameters(Parameters.java:568)
+                        	at org.testng.internal.Invoker.handleParameters(Invoker.java:1293)
+                        	at org.testng.internal.Invoker.createParameters(Invoker.java:1020)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1110)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+                        	at org.testng.TestRunner.run(TestRunner.java:610)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+                        	at org.testng.TestNG.runSuites(TestNG.java:1133)
+                        	at org.testng.TestNG.run(TestNG.java:1104)
+                        	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+                        	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+                        	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="Calc_PMI.DDF_MortgageCalc_tearDown_byClass_FAIL4_row"
+                class="testMethodStatusFAIL testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('Calc_PMI.DDF_MortgageCalc_tearDown_byClass_FAIL4_details')">tearDown()</a>
+               </td>
+               <td nowrap="true">13:20:26</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('Calc_PMI.DDF_MortgageCalc_tearDown_byClass_FAIL4_exception')">java.io.FileNotFoundException: 
+                     C:\Java_Luna_Projects\DDF_MortgageCalc\calcwrite.xls (The process cannot access the file because it is being used by another
+                     process)
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Calc_PMI.DDF_MortgageCalc_tearDown_byClass_FAIL4_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>tearDown
+                     </div>
+                     <div>
+                        <b>Signature: </b>tearDown()[pri:0, instance:Calc_PMI.DDF_MortgageCalc@2c039ac6]
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:20:26
+                     </div>
+                     <div>
+                        <b>End time: </b>13:20:26
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Calc_PMI.DDF_MortgageCalc_tearDown_byClass_FAIL4_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">java.io.FileNotFoundException: C:\Java_Luna_Projects\DDF_MortgageCalc\calcwrite.xls (The process cannot access the file because
+                        it is being used by another process)
+                        	at java.io.FileOutputStream.open0(Native Method)
+                        	at java.io.FileOutputStream.open(Unknown Source)
+                        	at java.io.FileOutputStream.&lt;init&gt;(Unknown Source)
+                        	at java.io.FileOutputStream.&lt;init&gt;(Unknown Source)
+                        	at ReadWriteExcel.ReadWriteExcel.writeXL(ReadWriteExcel.java:36)
+                        	at Calc_PMI.DDF_MortgageCalc.tearDown(DDF_MortgageCalc.java:114)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        	at java.lang.reflect.Method.invoke(Unknown Source)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+                        	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+                        	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+                        	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+                        	at org.testng.TestRunner.afterRun(TestRunner.java:983)
+                        	at org.testng.TestRunner.run(TestRunner.java:614)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+                        	at org.testng.TestNG.runSuites(TestNG.java:1133)
+                        	at org.testng.TestNG.run(TestNG.java:1104)
+                        	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+                        	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+                        	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+         </table>
+         <br></br>
+      </div>
+      <div style="margin-top: 15px; color: gray; text-align: center; font-size: 9px;">
+         Generated with
+         
+         <a href="http://code.google.com/p/testng-xslt/" style="color: #8888aa;"
+            target="_blank">
+            TestNG XSLT
+            
+         </a>
+      </div>
+   </body>
+</html>
